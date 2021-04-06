@@ -1,0 +1,36 @@
+/*Mise en page de la page*/
+section:first-of-type{
+    padding: 15%;
+    background-image: url(../medias/ukulelefondjaune.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    text-align: center;
+    font-size: 2em;
+    font-family: 'Bitter', serif;
+    color: whitesmoke;
+}
+
+p{
+    border-radius: 10px;
+    background-color: #FAB951;
+    text-align: center;
+    padding: 3%;
+    margin-top: 2%;
+    margin-left: 15%;
+    margin-right: 15%;
+    border: 1px solid black;
+    margin-bottom: 2%;
+}
+
+body{
+        background-color: #1a0f00;
+}
+
+footer{
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    padding-top: 2%;
+}
+/*Mise en page de la page*/

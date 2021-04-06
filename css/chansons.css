@@ -1,0 +1,51 @@
+/* Mettre des annonces publicitaires sur le côté */
+body{
+    background: url(../medias/vertical-banner.jpg) no-repeat, url(../medias/bannieredroite.jpg) no-repeat;
+    background-position: 0 300px, right 300px;
+    background-color:#FAB951;
+}
+/* Mettre des annonces publicitaires sur le côté */
+
+/* Balise vidéo */
+.video{
+    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+video{
+    width: 50%;
+}
+/*Balise vidéo */
+
+/*Mise en page de la page */
+footer{
+    color: white;
+    font-size: 1em;
+    text-align: center;
+    padding-top: 2%;
+    width: 100%;
+    text-align: center;
+}
+}
+h2{
+    padding: 2px;
+}
+
+h2:first-of-type{
+    font-family: 'Indie Flower', cursive;
+    text-decoration: underline;
+}
+.titre{
+    font-size: 3em;
+    text-align: center;
+}
+section{
+    margin: 0 auto;
+    width: 80%;
+    min-width: 1366px;
+}
+section svg{
+    position: relative;
+    top: -180px;
+}
+/*Mise en page de la page */

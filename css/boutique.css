@@ -1,0 +1,117 @@
+/*Mise en page générale */
+body{
+    background: url(../medias/vertical-banner.jpg) no-repeat, url(../medias/bannieredroite.jpg) no-repeat;
+    background-position: 0 100px, right 100px;
+    background-color:#FAB951;
+}
+
+section ul {
+    list-style-type: none;
+}
+
+section ul {
+    position:relative;
+    width:400px;
+    height:300px;
+    padding-left:60px;  
+    float:left;
+}
+
+section ul:first-of-type {
+    border-right:2px solid white;    
+}
+
+section ul:last-of-type {
+    padding-top: 150px;
+}
+
+section ul li {
+    padding:10px;
+    cursor:pointer;
+     font-family: 'Indie Flower', cursive;
+    text-decoration: underline;
+    font-size: 2em;
+}
+
+section ul:first-of-type li {
+    text-align: right;    
+}
+
+h2{
+    height: 80px;
+    font-family: 'Indie Flower', cursive;
+    text-decoration: underline;
+    font-size: 3em;
+    text-align: center;
+}
+footer{
+    clear: both;
+    position: relative;
+    top:200px;
+    text-align: center;
+    color: white;
+}
+/*Mise en page générale*/
+
+/*Ukulele qui apparaît */
+
+section li span {
+    opacity:0;    
+    width:100px;
+    height:100px;
+    transition-property: opacity, width, height, box-shadow;
+    transition-duration: 5s;
+    transition-timing-function: ease-in;    
+}
+
+
+section ul:first-of-type li:nth-child(1) span {
+    position: absolute;
+    left:500px;
+    top: 0px;
+    border: 1px solid black;
+}
+
+section ul:first-of-type li:nth-child(2) span {
+    position: absolute;
+    left: 500px;
+    top: 0px;
+    border: 1px solid green;
+}
+section ul:first-of-type li:nth-child(3) span {
+    position: absolute;
+    left: 500px;
+    top: 0px;
+    border: 1px solid blue;
+}
+
+section ul:first-of-type li:nth-child(1):hover span {
+    background-image: url(../medias/UkuleleBleu.jpg);
+    background-position: center;
+    background-color: white;
+    
+}
+section ul:first-of-type li:nth-child(2):hover span {
+    background-image: url(../medias/UkuleleBois.jpg);
+    background-position: center;
+    background-color: white;
+}
+section ul:first-of-type li:nth-child(3):hover span {
+    background-image: url(../medias/UkulelePro.jpg);
+    background-position: center;
+    background-color: white;
+}
+section li:hover span {
+    opacity:1;
+    width:400px;
+    height:540px;
+    box-shadow:10px 10px 5px black;
+}
+section ul:first-of-type li span {
+    display: inline-block;
+    background-repeat: no-repeat;
+    cursor:default;
+    
+}
+/*Ukulele qui apparaît */
+

@@ -1,0 +1,46 @@
+/*Mise en page générale */
+body {
+    background-color: #FAB951;
+    height: 800px;
+}
+
+h2 {
+    font-family: 'Indie Flower', cursive;
+    text-decoration: underline;
+    text-align: center;
+    font-size: 3em;
+}
+
+fieldset {
+    width: 43%;
+    margin-left: 5%;
+}
+
+img {
+    width: 400px;
+    height: 400px;
+    position: relative;
+    left: 60%;
+    top: -520px;
+}
+
+label {
+    width: 100px;
+    display: inline-block;
+    padding: 2%;
+}
+
+footer {
+    text-align: center;
+    color: white;
+}
+
+
+section input{
+    margin-left: 25%;
+}
+
+label{
+    font-family: 'Indie Flower', cursive;
+}
+/*Mise en page générale */

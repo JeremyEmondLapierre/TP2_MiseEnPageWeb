@@ -1,0 +1,101 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+div{
+    min-width: 1366px;
+}
+/* ============================ */
+/* Logo ===================== */
+/* ============================ */
+
+
+header{
+    background-color: #993333;
+    border: 1px solid black;
+    padding-bottom: 3%;
+}
+
+header h1{
+    width: 11%;
+    min-width: 200px;
+    float: left;
+    margin-left: 5%;
+    margin-top: 1.5%;
+    font-size: 2.5em;
+    font-family: 'Indie Flower', cursive;
+    background-color: #ff9940;
+    border-radius: 10px;
+    border: 3px solid black;
+    padding-left: 2%;
+}
+
+header input{
+    margin-top: 3%;
+    margin-left: 2%;
+    background-color: #993000;
+    border-color: black;
+    color: white;
+    width: 25%;
+    font-family: 'Bitter', serif;
+}
+
+a{
+    color: white;
+}
+
+/* ============================ */
+/* NAV ===================== */
+/* ============================ */
+
+
+/*******************************************************************/
+
+/* ================================== */
+/* Sur les options de la navigation= */
+/* (Supposé fonctionner mais ne marche pas) */
+/* ================================== */
+
+nav li {
+    transition-property: transform;
+    transition-duration: 1s;
+    transition-timing-function: ease-in;
+}
+
+nav li:hover {
+    transform:  scale(1.25) translate(5px, -5px) rotate(-5deg);
+}
+
+nav li.actif:hover {
+    transform: none;
+}
+
+/*******************************************************************/
+
+
+nav ul li{
+    display: inline;
+    padding: 1%;
+    margin-right: 2%;
+    font-family: 'Bitter', serif;
+
+}
+nav ul{
+    width: 40%;
+    float: left;
+    margin-left: 8%;
+    margin-top: 3%;
+    font-size: 1em;
+}
+.actif{
+    color: black;
+}
+
+/* ============================ */
+/* NAV ===================== */
+/* ============================ */
+
+
+
+
+

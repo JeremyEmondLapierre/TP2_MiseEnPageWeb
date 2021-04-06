@@ -1,0 +1,88 @@
+<!doctype HTML>
+<html lang="fr-ca">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="author" content="Jérémy Emond-Lapierre">
+    <meta name="keywords" content="notes, musiques, chords, ukalaya">
+    <meta name="description" content="Nous contacter.">
+    <link href="fontawesome-free-5.11.2-web/css/all.css" rel="stylesheet">
+    <script src="fontawesome-free-5.11.2-web/js/all.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Bitter:400,700&display=swap" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet">
+    <link href="css/contact.css" rel="stylesheet">
+    <title>Notes</title>
+</head>
+
+<body>
+    <div>
+
+        <header>
+
+            <h1><i class="fas fa-guitar fa-1x"></i>Ukalaya</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="notes.html">Notes</a></li>
+                    <li><a href="chansons.html">Chansons</a></li>
+                    <li><a href="boutique.html">Boutique</a></li>
+                    <li class="actif">Nous contacter</li>
+                </ul>
+                <i class="fas fa-cart-arrow-down"></i>
+                <input type="text" placeholder="Search..">
+            </nav>
+        </header>
+        <h2>Nous contacter</h2>
+
+        <form action="mailto:e1952173@cmaisonneuve.qc.ca" method="post">
+            <fieldset>
+                <legend>Votre identité</legend>
+                <label for="login">Login</label>
+                <input type="text" name="sLogin" id="login" value="" placeholder="Saisir votre login">
+                <br>
+                <label for="pwd">Mot de passe</label>
+                <input type="password" name="sPwd" id="pwd" value="" placeholder="Saisir votre mot de passe">
+                <br>
+                <label for="age">Âge</label>
+                <input type="number" name="iAge" id="age" max="100" min="12">
+                <br>
+                <label>Expérience au Ukulele</label>
+                <input type=radio name="iExperience" id="debutant" value="1">
+                <label for="debutant">Débutant</label>
+                <input type=radio name="iExperience" id="intermediaire" value="2">
+                <label for="intermediaire">Intermédiaire</label>
+                <input type=radio name="iExperience" id="avance" value="3">
+                <label for="avance">Avancé</label>
+                <br>
+                <label for="pays"> Pays d'origine</label>
+                <select name="iPays" id="pays">
+                    <option value="1">Canada</option>
+                    <option value="2">USA</option>
+                    <option value="3" selected>Australie</option>
+                    <option value="4">Grande Bretagne</option>
+                </select>
+                <br>
+                <label for="comment">Commentaire</label>
+                <textarea name="sComment" id="comment" cols="30" rows="10" placeholder="Laissez vos commentaires sur la compagnie..."></textarea>
+                <br>
+                <label for="comment">Vos questions</label>
+                <textarea name="sQuestion" id="question" cols="30" rows="10" placeholder="Écrivez-nous vos questions."></textarea>
+                <br>
+                <section>
+                <input type="submit" name="cmd" value="Envoyer">
+                <input type="reset" name="cmd" value="Ré-initialiser">
+                    </section>
+            </fieldset>
+        </form>
+
+        <img src="medias/ukuleleseul.png" alt="Image Ukulele seul">
+
+
+    </div>
+
+    <footer>
+        &copy;Propriété de Ukalaya. Aucune re-production autorisé sous peine d'amende.
+    </footer>
+</body></html>
